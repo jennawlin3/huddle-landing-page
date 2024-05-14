@@ -104,6 +104,7 @@ body::after {
 @media screen and (min-width: 820px) {
 	body {
 		width: 90vw;
+		justify-content: space-between;
 	}
 
 	body::after {
@@ -117,6 +118,7 @@ body::after {
 		margin: 0 3vw;
 		padding: 10px 30px;
 		gap: 40px;
+		text-align: start;
 	}
 
 	.register-btn {
@@ -138,8 +140,24 @@ body::after {
 }
 
 @media screen and (min-width: 1100px) {
+	.logo {
+		padding: 10px;
+	}
+	
+	.logo > img {
+		width: 200px;
+	}
+
 	.hero {
-		max-width: 600px;
+		max-width: 700px;
+	}
+	
+	.content h1 {
+		font-size: 2.5rem;
+	}
+
+	.content p {
+		font-size: 1.2rem;
 	}
 
 	.social-icons {
